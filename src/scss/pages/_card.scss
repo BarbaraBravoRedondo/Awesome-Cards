@@ -1,0 +1,26 @@
+@import 'core/variables';
+@import 'core/reset';
+@import 'layout/main';
+@import 'layout/header-card';
+@import 'layout/card-grid';
+@import 'layout/card-preview';
+@import 'layout/card-form-design';
+@import 'layout/card-form-refill';
+@import 'layout/card-form-share';
+@import 'layout/footer-card';
+
+.collapsed{
+    .design__box, .refill__box, .sharing__box{
+        .collap-icon{
+        transform: rotate(180deg);
+        }
+    }
+    .design__box2, .text_form, .sharing__box2{
+        display: none;
+    }
+}
+
+.btn__twitter.hidden{
+    display:none;
+}
+

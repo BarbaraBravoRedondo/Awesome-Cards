@@ -1,0 +1,27 @@
+.header {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+  @media all and(min-width:768px) {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+
+    background-color: $color-pink;
+  }
+}
+
+.logo-menu {
+  width: 32rem;
+  height: 7.3rem;
+  
+  @media all and(min-width:768px) {
+    margin-left: 50px;
+  }
+}

@@ -1,0 +1,120 @@
+.sharing{
+  margin:15px;
+  border:none;
+  border-bottom: 1px solid $color-white;
+  &__box{
+      cursor: pointer;
+      display:flex;
+      justify-content:space-between;
+      &--icontext{
+          display:flex;
+          gap:15px;
+          &--icon{
+              color: $color-white;
+              font-size:18px;
+              width: 21px;
+              height: 18px;
+          }
+          &--text{
+              font-family:$font-Open;
+              font-weight:600;
+              color: $color-white;
+              font-size:18px;
+              text-transform: uppercase;
+              padding-bottom: 10px;
+          }
+      }
+      &--arrow{
+          font-size:18px;
+          color:$color-white;
+      }
+  }
+
+  .press__button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 30px;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: $color-white solid 1px;
+    .press__submit {
+      background-color: $color-pink;
+      width: 199px;
+      height: 50px;
+      color: $color-white;
+      font-family: $font-Open;
+      font-weight: 600px;
+      font-size: 19px;
+      text-transform: uppercase;
+      border-radius: 12px;
+      box-shadow: 0 1px 6px 0 $color-black;
+      border: none;
+      .card__id {
+        color: $color-white;
+        padding-right: 10px;
+      }
+    }
+    .pulsed-grey{
+      background-color: $color-white;
+  }
+  }
+  
+  .msgError{
+    text-align: center;
+    color: rgb(255, 254, 252);
+    background-color: $color-pink;
+    font-weight: bold;
+    font-size: 2.2rem;
+   
+ 
+  }
+
+  .hidden{
+    display: none;
+  }
+  .card__created {
+    font-family: $font-Open;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 20px;
+    color: purple;
+  }
+  .url{
+    font-family: $font-Open;
+    font-weight: 600;
+    font-size: 12px;
+    color:$color-white;
+    text-align: center;
+    margin:5px;
+    text-decoration: none;
+  }
+  .btn__twitter{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 35px;
+    
+    .a{ display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 9.5px;
+        background-color: #00a0f5;
+        height: 30px;
+        width: 181px;
+        font-size: 14px;
+        font-family: $font-Open;
+        text-align: center;
+        border-radius: 3px;
+        color: $color-white;
+        text-decoration: none;
+        box-shadow: 0 0 4px 0 black;
+        
+    
+
+    }
+  }
+}

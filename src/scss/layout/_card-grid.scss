@@ -1,0 +1,22 @@
+.grid{
+    
+
+    @media all and (min-width:768px){
+        display: grid;
+        grid-template-columns: 60% 40%;
+        background-image: linear-gradient(to bottom, $color-white);
+        
+    }
+    @media all and (min-width:1024px){
+        grid-template-columns: 40% 60%;
+    }
+}
+.hero {
+        height: 90vh;
+        background-image: url('../images/fondo-papel-psicodelico-abstracto.png');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+
+main{height: 83.3vh;}
